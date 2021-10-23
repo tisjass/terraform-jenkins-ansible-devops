@@ -15,7 +15,8 @@ provisioner "local-exec" {
 }
 
 tags = {
-   Name = "kumar-server-devops"
+   Name = "kumar-server-devops-v2"
    dept = "Engineering"
+   env = "dev"
 }
 }
